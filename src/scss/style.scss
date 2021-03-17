@@ -1,0 +1,666 @@
+#bg-image {
+  background: url("../img/backtat.jpeg");
+  background-size: cover;
+  background-position: initial;
+  height: 950px;
+
+  .navbar {
+    font-family: "lobster", cursive;
+    font-size: 2.5em;
+  }
+
+  .navbar-brand {
+    font-family: "lobster", cursive;
+    font-size: 2em;
+    margin-right: 2em;
+    color: #fff;
+  }
+
+  .nav-link,
+  .nav-link {
+    color: #fff;
+    margin-right: 0.5em;
+  }
+
+  .display-1 {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Lobster", cursive;
+    font-size: 7.5em;
+    margin-left: 3.3em;
+    padding-bottom: 0.3em;
+  }
+
+  .lead {
+    color: #fff;
+    font-size: 2.5em;
+    margin-left: 12.5em;
+    font-family: "Times New Roman", Times, serif;
+  }
+}
+
+#art-image {
+  // background: url('../img/got.jpg');
+  // background-size: cover;
+  // background-position: center;
+  // background-attachment: fixed;
+
+  // padding-top: 12vh;
+  // padding-bottom: 12vh;
+  background-color: #4e3c36;
+
+  .lead {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "Roman Times", Courier, monospace;
+  }
+
+  .card-title {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+
+  .display-4 {
+    color: #fff;
+    font-weight: bold;
+    font-family: "Lobster", cursive;
+    font-size: 7.5em;
+    padding-bottom: 0.3em;
+  }
+}
+
+// info Section
+
+#info {
+  .card-title {
+    color: #4e3c36;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  p {
+    color: #76574b;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  .display-4 {
+    color: #76574b;
+    font-weight: bold;
+    font-family: "Lobster", cursive;
+    font-size: 7.5em;
+    padding-bottom: 0.3em;
+  }
+
+  // hr {
+  //   border-color: #000;
+  //   border-width: 0.3em;
+  // }
+}
+
+section-a,
+h1 {
+  padding-top: 0.5em;
+  font-family: "brush script mt";
+  font-size: 2.5em;
+  color: #fff;
+}
+
+section-b {
+  color: #fff;
+}
+
+.fa {
+  color: #000;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.btn {
+  font-family: "lobster", cursive;
+  font-size: 2em;
+}
+
+.lead {
+  font-family: "brush script mt";
+  font-size: 3.5em;
+}
+
+.active {
+  color: #fff;
+}
+
+.card-title {
+  font-family: "lobster", cursive;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+#Testimonials {
+  .display-4 {
+    color: #76574b;
+    font-weight: bold;
+    font-family: "Lobster", cursive;
+    font-size: 7.5em;
+    padding-bottom: 0.3em;
+  }
+}
+
+.get_in_touch {
+  max-width: 80em;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+
+  .title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #312e2e;
+    background: linear-gradient(to right, #f7f4f3 0%, #4e3c36);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #4e3c36;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    transform: translateY(-24px);
+  }
+
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #76574b;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-image: linear-gradient(125deg, #76574b, #fff);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+footer {
+  background-image: linear-gradient(120.6deg, #4e3c36 11.2%, #312e2e 92.3%);
+  font-family: "lobster", cursive;
+  font-size: 1.5em;
+  color: #fff;
+
+  hr {
+    border-top-color: #fff;
+    opacity: 0.5;
+  }
+
+  .fa {
+    color: #fff;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    margin-right: 14px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+  hr.small {
+    margin: 20px 0;
+  }
+
+  h6 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+  }
+
+  .copyright-text {
+    font-size: 1.8em;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 180px) {
+  #bg-image {
+    background-position: center;
+  }
+
+  #bg-image .display-1 {
+    font-size: 2.8em;
+    padding-top: 2.5em;
+    margin-right: 0;
+    margin-left: 1.5em;
+  }
+
+  #bg-image .btn {
+    // margin-top: 8em;
+    margin-left: 2em;
+  }
+
+  #Testimonials {
+    //  background: linear-gradient(-120deg, #76574b 50%, #4e3c36 50%);
+    //  height: 70vh;
+
+    .row {
+      margin-top: 4.5%;
+    }
+
+    .img-text {
+      width: 100%;
+      height: 300px;
+      display: block;
+      text-align: center;
+      padding: 40% 5%;
+      background: #76574b;
+      color: #fff;
+      border-radius: 15px;
+    }
+
+    .img-text h2 {
+      font-size: 25px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .img-text-p {
+      font-size: 14px;
+    }
+
+    .single-box {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .img-area {
+      position: absolute;
+      width: 50%;
+      // height: 100px;
+      border: 5px solid #fff;
+      overflow: hidden;
+      top: 5%;
+      left: 25%;
+      align-content: center;
+      border-radius: 50%;
+    }
+
+    .carousel-indicators {
+      left: 0;
+      top: auto;
+      bottom: -70px;
+    }
+
+    .carousel-indicators li {
+      background: #76574b;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+    }
+
+    .carousel-indicators .active {
+      background: #000;
+    }
+
+    .img-area img {
+      width: 100%;
+    }
+
+    .img-fluid {
+      width: 300px;
+    }
+
+    .card-title {
+      font-size: 2.5em;
+      color: #fff;
+    }
+
+    .card-body {
+      font-size: 1.8em;
+      color: #fff;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #bg-image {
+    background-position: center;
+  }
+
+  #bg-image .display-1 {
+    font-size: 3.5em;
+    padding-top: 0.5em;
+    margin-right: 0;
+    margin-left: 1.5em;
+  }
+
+  #bg-image .btn {
+    // margin-top: 8em;
+    margin-left: 4.5em;
+  }
+
+  #Testimonials {
+    // background: linear-gradient(-120deg, #76574b 50%, #4e3c36 50%);
+    // height: 70vh;
+
+    .row {
+      margin-top: 4.5%;
+    }
+
+    .img-text {
+      width: 100%;
+      height: 300px;
+      display: block;
+      text-align: center;
+      padding: 40% 5%;
+      background: #312e2e;
+      color: #fff;
+      border-radius: 15px;
+    }
+
+    .img-text h2 {
+      font-size: 25px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .img-text-p {
+      font-size: 14px;
+    }
+
+    .single-box {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .img-area {
+      position: absolute;
+      width: 50%;
+      // height: 100px;
+      border: 5px solid #fff;
+      overflow: hidden;
+      top: 5%;
+      left: 25%;
+      align-content: center;
+      border-radius: 50%;
+    }
+
+    .carousel-indicators {
+      left: 0;
+      top: auto;
+      bottom: -70px;
+    }
+
+    .carousel-indicators li {
+      background: #76574b;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+    }
+
+    .carousel-indicators .active {
+      background: #000;
+    }
+
+    .img-area img {
+      width: 100%;
+    }
+
+    .img-fluid {
+      width: 300px;
+    }
+
+    .card-title {
+      font-size: 2.5em;
+      color: #fff;
+    }
+
+    .card-body {
+      font-size: 1.8em;
+      color: #fff;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #bg-image {
+    background-position: initial;
+  }
+
+  #bg-image .display-1 {
+    font-size: 5.5em;
+    padding-top: 0;
+    margin-left: 1.8em;
+  }
+
+  #bg-image .btn {
+    margin-top: 8em;
+    margin-left: 4em;
+  }
+
+  #Testimonials {
+    //  background: linear-gradient(-120deg, #76574b 50%, #4e3c36 50%);
+    //  height: 70vh;
+
+    .row {
+      margin-top: 4.5%;
+    }
+
+    .img-text {
+      width: 100%;
+      height: 300px;
+      display: block;
+      text-align: center;
+      padding: 40% 5%;
+      background: #312e2e;
+      color: #fff;
+      border-radius: 15px;
+    }
+
+    .img-text h2 {
+      font-size: 25px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .img-text-p {
+      font-size: 14px;
+    }
+
+    .single-box {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .img-area {
+      position: absolute;
+      width: 50%;
+      // height: 100px;
+      border: 5px solid #fff;
+      overflow: hidden;
+      top: 5%;
+      left: 25%;
+      align-content: center;
+      border-radius: 50%;
+    }
+
+    .carousel-indicators {
+      left: 0;
+      top: auto;
+      bottom: -70px;
+    }
+
+    .carousel-indicators li {
+      background: #76574b;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+    }
+
+    .carousel-indicators .active {
+      background: #000;
+    }
+
+    .img-area img {
+      width: 100%;
+    }
+
+    .img-fluid {
+      width: 300px;
+    }
+
+    .card-title {
+      font-size: 2.5em;
+      color: #fff;
+    }
+
+    .card-body {
+      font-size: 1.8em;
+      color: #fff;
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1380px) {
+  #bg-image .display-1 {
+    font-size: 6.5em;
+    margin-top: 1em;
+    margin-right: 0;
+    margin-left: 3.5em;
+  }
+
+  #bg-image #btn {
+    padding-top: 5em;
+    margin-left: 4.5em;
+  }
+
+  #Testimonials {
+    //  background: linear-gradient(-120deg, #76574b 50%, #4e3c36 50%);
+    //  height: 70vh;
+
+    .row {
+      margin-top: 4.5%;
+    }
+
+    .img-text {
+      width: 100%;
+      height: 300px;
+      display: block;
+      text-align: center;
+      padding: 40% 5%;
+      background: #4e3c36;
+      color: #fff;
+      border-radius: 15px;
+    }
+
+    .img-text h2 {
+      font-size: 25px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .img-text-p {
+      font-size: 14px;
+    }
+
+    .single-box {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .img-area {
+      position: absolute;
+      width: 50%;
+      // height: 100px;
+      border: 5px solid #fff;
+      overflow: hidden;
+      top: 5%;
+      left: 25%;
+      align-content: center;
+      border-radius: 50%;
+    }
+
+    .carousel-indicators {
+      left: 0;
+      top: auto;
+      bottom: -70px;
+    }
+
+    .carousel-indicators li {
+      background: #76574b;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+    }
+
+    .carousel-indicators .active {
+      background: #000;
+    }
+
+    .img-area img {
+      width: 100%;
+    }
+
+    .img-fluid {
+      width: 300px;
+    }
+
+    .card-title {
+      font-size: 2.5em;
+      color: #fff;
+    }
+
+    .card-body {
+      font-size: 1.8em;
+      color: #fff;
+    }
+  }
+}

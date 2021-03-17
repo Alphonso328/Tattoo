@@ -1,0 +1,26 @@
+{
+  "name": "bs4starter",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 workflow",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "deploy":"gh-pages -d src"
+  },
+  "author": "RevCulCre",
+  "license": "MIT",
+  "homepage": "https://Alphonso328.github.io/Tattoo",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^3.1.0",
+    "gulp-update": "0.0.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^4.0.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
