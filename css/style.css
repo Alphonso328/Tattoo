@@ -1,0 +1,434 @@
+#bg-image {
+  background: url("../img/backtat.jpeg");
+  background-size: cover;
+  background-position: initial;
+  height: 950px; }
+  #bg-image .navbar {
+    font-family: "lobster", cursive;
+    font-size: 2.5em; }
+  #bg-image .navbar-brand {
+    font-family: "lobster", cursive;
+    font-size: 2em;
+    margin-right: 2em;
+    color: #fff; }
+  #bg-image .nav-link,
+  #bg-image .nav-link {
+    color: #fff;
+    margin-right: 0.5em; }
+  #bg-image .display-1 {
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Lobster", cursive;
+    font-size: 7.5em;
+    margin-left: 3.3em;
+    padding-bottom: 0.3em; }
+  #bg-image .lead {
+    color: #fff;
+    font-size: 2.5em;
+    margin-left: 12.5em;
+    font-family: "Times New Roman", Times, serif; }
+
+#art-image {
+  background-color: #4e3c36; }
+  #art-image .lead {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "Roman Times", Courier, monospace; }
+  #art-image .card-title {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 1em; }
+  #art-image .display-4 {
+    color: #fff;
+    font-weight: bold;
+    font-family: "Lobster", cursive;
+    font-size: 7.5em;
+    padding-bottom: 0.3em; }
+
+#info .card-title {
+  color: #4e3c36;
+  font-size: 1.5em;
+  font-weight: 700; }
+
+#info p {
+  color: #76574b;
+  font-size: 1.2em;
+  font-weight: 500; }
+
+#info .display-4 {
+  color: #76574b;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+  font-size: 7.5em;
+  padding-bottom: 0.3em; }
+
+section-a,
+h1 {
+  padding-top: 0.5em;
+  font-family: "brush script mt";
+  font-size: 2.5em;
+  color: #fff; }
+
+section-b {
+  color: #fff; }
+
+.fa {
+  color: #000;
+  padding-left: 1em;
+  padding-bottom: 1em; }
+
+.btn {
+  font-family: "lobster", cursive;
+  font-size: 2em; }
+
+.lead {
+  font-family: "brush script mt";
+  font-size: 3.5em; }
+
+.active {
+  color: #fff; }
+
+.card-title {
+  font-family: "lobster", cursive;
+  margin-top: 1.5em;
+  margin-bottom: 1em; }
+
+#Testimonials .display-4 {
+  color: #76574b;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+  font-size: 7.5em;
+  padding-bottom: 0.3em; }
+
+.get_in_touch {
+  max-width: 80em;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px; }
+  .get_in_touch .title {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 3em;
+    line-height: 48px;
+    padding-bottom: 20px;
+    color: #312e2e;
+    background: linear-gradient(to right, #f7f4f3 0%, #4e3c36);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .get_in_touch .contact-form .form-field {
+    position: relative;
+    margin: 32px 0; }
+  .get_in_touch .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #4e3c36;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400; }
+  .get_in_touch .contact-form .input-text:focus + .label,
+  .get_in_touch .contact-form .input-text.not-empty + .label {
+    transform: translateY(-24px); }
+  .get_in_touch .contact-form .input-text:focus {
+    outline: none; }
+  .get_in_touch .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #76574b;
+    cursor: text;
+    text-transform: capitalize;
+    transition: transform 0.2s ease-in-out; }
+  .get_in_touch .contact-form .submit-btn {
+    display: inline-block;
+    background-image: linear-gradient(125deg, #76574b, #fff);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer; }
+
+footer {
+  background-image: linear-gradient(120.6deg, #4e3c36 11.2%, #312e2e 92.3%);
+  font-family: "lobster", cursive;
+  font-size: 1.5em;
+  color: #fff; }
+  footer hr {
+    border-top-color: #fff;
+    opacity: 0.5; }
+  footer .fa {
+    color: #fff;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    margin-right: 14px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear; }
+  footer hr.small {
+    margin: 20px 0; }
+  footer h6 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px; }
+  footer .copyright-text {
+    font-size: 1.8em; }
+
+@media (min-width: 180px) {
+  #bg-image {
+    background-position: center; }
+  #bg-image .display-1 {
+    font-size: 2.8em;
+    padding-top: 2.5em;
+    margin-right: 0;
+    margin-left: 1.5em; }
+  #bg-image .btn {
+    margin-left: 2em; }
+  #Testimonials .row {
+    margin-top: 4.5%; }
+  #Testimonials .img-text {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #76574b;
+    color: #fff;
+    border-radius: 15px; }
+  #Testimonials .img-text h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  #Testimonials .img-text-p {
+    font-size: 14px; }
+  #Testimonials .single-box {
+    position: relative;
+    margin-bottom: 30px; }
+  #Testimonials .img-area {
+    position: absolute;
+    width: 50%;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 5%;
+    left: 25%;
+    align-content: center;
+    border-radius: 50%; }
+  #Testimonials .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px; }
+  #Testimonials .carousel-indicators li {
+    background: #76574b;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px; }
+  #Testimonials .carousel-indicators .active {
+    background: #000; }
+  #Testimonials .img-area img {
+    width: 100%; }
+  #Testimonials .img-fluid {
+    width: 300px; }
+  #Testimonials .card-title {
+    font-size: 2.5em;
+    color: #fff; }
+  #Testimonials .card-body {
+    font-size: 1.8em;
+    color: #fff; } }
+
+@media (min-width: 768px) {
+  #bg-image {
+    background-position: center; }
+  #bg-image .display-1 {
+    font-size: 3.5em;
+    padding-top: 0.5em;
+    margin-right: 0;
+    margin-left: 1.5em; }
+  #bg-image .btn {
+    margin-left: 4.5em; }
+  #Testimonials .row {
+    margin-top: 4.5%; }
+  #Testimonials .img-text {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #312e2e;
+    color: #fff;
+    border-radius: 15px; }
+  #Testimonials .img-text h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  #Testimonials .img-text-p {
+    font-size: 14px; }
+  #Testimonials .single-box {
+    position: relative;
+    margin-bottom: 30px; }
+  #Testimonials .img-area {
+    position: absolute;
+    width: 50%;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 5%;
+    left: 25%;
+    align-content: center;
+    border-radius: 50%; }
+  #Testimonials .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px; }
+  #Testimonials .carousel-indicators li {
+    background: #76574b;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px; }
+  #Testimonials .carousel-indicators .active {
+    background: #000; }
+  #Testimonials .img-area img {
+    width: 100%; }
+  #Testimonials .img-fluid {
+    width: 300px; }
+  #Testimonials .card-title {
+    font-size: 2.5em;
+    color: #fff; }
+  #Testimonials .card-body {
+    font-size: 1.8em;
+    color: #fff; } }
+
+@media (min-width: 992px) {
+  #bg-image {
+    background-position: initial; }
+  #bg-image .display-1 {
+    font-size: 5.5em;
+    padding-top: 0;
+    margin-left: 1.8em; }
+  #bg-image .btn {
+    margin-top: 8em;
+    margin-left: 4em; }
+  #Testimonials .row {
+    margin-top: 4.5%; }
+  #Testimonials .img-text {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #312e2e;
+    color: #fff;
+    border-radius: 15px; }
+  #Testimonials .img-text h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  #Testimonials .img-text-p {
+    font-size: 14px; }
+  #Testimonials .single-box {
+    position: relative;
+    margin-bottom: 30px; }
+  #Testimonials .img-area {
+    position: absolute;
+    width: 50%;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 5%;
+    left: 25%;
+    align-content: center;
+    border-radius: 50%; }
+  #Testimonials .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px; }
+  #Testimonials .carousel-indicators li {
+    background: #76574b;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px; }
+  #Testimonials .carousel-indicators .active {
+    background: #000; }
+  #Testimonials .img-area img {
+    width: 100%; }
+  #Testimonials .img-fluid {
+    width: 300px; }
+  #Testimonials .card-title {
+    font-size: 2.5em;
+    color: #fff; }
+  #Testimonials .card-body {
+    font-size: 1.8em;
+    color: #fff; } }
+
+@media (min-width: 1380px) {
+  #bg-image .display-1 {
+    font-size: 6.5em;
+    margin-top: 1em;
+    margin-right: 0;
+    margin-left: 3.5em; }
+  #bg-image #btn {
+    padding-top: 5em;
+    margin-left: 4.5em; }
+  #Testimonials .row {
+    margin-top: 4.5%; }
+  #Testimonials .img-text {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #4e3c36;
+    color: #fff;
+    border-radius: 15px; }
+  #Testimonials .img-text h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  #Testimonials .img-text-p {
+    font-size: 14px; }
+  #Testimonials .single-box {
+    position: relative;
+    margin-bottom: 30px; }
+  #Testimonials .img-area {
+    position: absolute;
+    width: 50%;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 5%;
+    left: 25%;
+    align-content: center;
+    border-radius: 50%; }
+  #Testimonials .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -70px; }
+  #Testimonials .carousel-indicators li {
+    background: #76574b;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px; }
+  #Testimonials .carousel-indicators .active {
+    background: #000; }
+  #Testimonials .img-area img {
+    width: 100%; }
+  #Testimonials .img-fluid {
+    width: 300px; }
+  #Testimonials .card-title {
+    font-size: 2.5em;
+    color: #fff; }
+  #Testimonials .card-body {
+    font-size: 1.8em;
+    color: #fff; } }
